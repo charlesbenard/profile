@@ -40,6 +40,42 @@ li {
   line-height: 26px;
 }
 
+/*sidebar*/
+#sidebar {
+  width: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4D394B;
+}
+
+#sidebar {
+  padding-left: 0px;
+}
+
+#sidebar .fa {
+  color: #AB9BA9;
+  font-size: 22px;
+}
+
+#sidebar .fa:hover {
+  color: #FFFFFF;
+}
+
+#sidebar ul {
+  padding-left: 0px;
+}
+
+#sidebar li {
+  padding: 25px;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
+/*main part*/
 .container {
   max-width: 700px;
   margin: 0 auto;
@@ -52,6 +88,7 @@ li {
   border-radius: 5px;
   box-shadow: 2px 2px 3px #ebf0f5;
 }
+
 
 .btn-blue {
   padding: 10px 20px;

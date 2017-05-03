@@ -4,18 +4,37 @@
     <title>Basic info</title>
 
     <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 
     <!-- Fontawesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <!-- Here goes your content -->
-    <div class="container">
+    <div id="sidebar" class="text-center">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <!-- your page content here -->
+      <div class="container" id="summary">
       <div class="card text-center">
         <img class="img-circle img-avatar" src="https://avatars0.githubusercontent.com/u/5082751?v=3&u=98fcb640296780be728088ce2a10c3a4f14394ad&s=400">
         <h1>Charles Bénard</h1>
@@ -30,25 +49,37 @@
           <li><a href="#"><i class="fa fa-spotify" aria-hidden="true"></i><br>Spotify</a></li>
         </ul>
       </div>
-      <div class="card">
+      <div class="card" id="favorite-movies">
         <h2 class="text-center">My Favorites Movies</h2>
         <table>
           <tr>
-            <td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWUxNGZiMzEtMjJiOC00YzA3LWEyNWEtMWIzYmUzOTNmNTg5XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_.jpg" class="card-image" alt="Night on earth"></td>
+            <td>
+              <a href="http://www.imdb.com/title/tt0102536/" target="blank">
+                <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWUxNGZiMzEtMjJiOC00YzA3LWEyNWEtMWIzYmUzOTNmNTg5XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_.jpg" class="card-image" alt="Night on earth">
+              </a>
+            </td>
             <td class="card-text">
               <h3>Night on earth</h3>
               <p>An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.</p>
             </td>
           </tr>
           <tr>
-            <td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,670,1000_AL_.jpg" class="card-image" alt="The Usual Suspects"></td>
+            <td>
+              <a href="http://www.imdb.com/title/tt0114814/" target="blank">
+                <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,670,1000_AL_.jpg" class="card-image" alt="The Usual Suspects">
+              </a>
+            </td>
             <td class="card-text">
               <h3>The Usual Suspects</h3>
               <p>A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.</p>
             </td>
           </tr>
-          <tr>
-            <td><img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,683,1000_AL_.jpg" class="card-image" alt="Rear Window"></td>
+          <tr>http://www.imdb.com/title/tt0047396/
+            <td>
+              <a href="http://www.imdb.com/title/tt0047396/" target="blank">
+                <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,683,1000_AL_.jpg" class="card-image" alt="Rear Window">
+              </a>
+            </td>
             <td class="card-text">
               <h3>Rear Window</h3>
               <p>A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.!</p>
@@ -56,7 +87,7 @@
           </tr>
         </table>
       </div>
-      <div class="card text-center list-inline">
+      <div class="card text-center list-inline" id="footer">
         <h2>About this page</h2>
           <p>This page is an exercice from<a href="https://www.lewagon.com/fr">@lewagon</a></p>
           <ul>
@@ -66,7 +97,6 @@
           </ul>
         </div>
     </div>
-
-
+    </div>
   </body>
 </html>
