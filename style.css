@@ -1,0 +1,96 @@
+/* Here goes your CSS */
+body {
+  background-color: #F4F7FA;
+  color: #2C2D30;
+  font-family: lato, helvetica;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 39px;
+  color: #6A90EB;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: #2C2D30;
+}
+
+a:hover {
+  color: #6A90EB;
+}
+
+li {
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #ebf0f5;
+}
+
+.btn-blue {
+  padding: 10px 20px;
+  background-color: #6A90EB;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  color: #FFFFFF;
+  background-color: #2c66ef;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.img-circle {
+  border-radius: 13%;
+}
+
+.img-avatar {
+  border: 2px solid #EDF1F6;
+  width: 180px;
+}
+
+.card-image{
+  width: 80px;
+}
+
+.card-text{
+  padding: 20px;
+}
